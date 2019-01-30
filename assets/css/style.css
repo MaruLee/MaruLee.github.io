@@ -2,14 +2,48 @@ a, a:visited, a:hover, a:active {
     text-decoration: none;
     color: inherit;
 }
-
-#header{
-    width: 100%;
-    height: 6em; 
-    
+body {
+    background-image: url("../images/houndstooth-pattern.png");
 }
 
-#footer{
+.container {
+    padding: 0px 0px 0px 0px;
+    max-width: 980px;
+}
+
+#header {
+    width: 100%;
+    height: auto;
+    border-bottom: 2px #777777 solid;
+    background-color: #ffffff;
+}
+
+.nav {
+    justify-content: center;
+}
+
+}
+.navbar {
+    padding: 0px 0px 0px 0px;
+    width: 100%;
+}
+
+.navbar-brand {
+    color: #ffffff;
+    background: #4aaaa5;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 2em;
+    padding: 1em 1em 1em 1em;
+    text-align: center; 
+}
+
+.navbar-nav {
+    margin-left: auto;
+  
+}
+
+#footer {
     width: 100%;
     border-top: 8px #4aaaa5 solid;
     background: #666666;
@@ -18,67 +52,41 @@ a, a:visited, a:hover, a:active {
     bottom: 0;
 }
 
-.content{
-    width: 100%;
-    top: 6em;
-    bottom: 0;
-    position: absolute;
-    background-image: url("../images/houndstooth-pattern.png");
-    border-top: 1px #777777 solid;
-    
+.content {
+    max-width: 980px; 
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .contentContainer {
-    width: 960px;
-    margin-left: auto; 
+    max-width: 960px;
+    margin-left: auto;
     margin-right: auto;
     background: white;
     margin-top: 1em;
+    margin-bottom: 6em;
     padding: 3em 2em 3em 2em;
     box-sizing: border-box;
-    
-
-
-
-}
-#navbar {
-    height: 50px;
-    width: 960px;
-    margin-left: auto; 
-    margin-right: auto;
 }
 
-#userName {
-    float: left;
-    color: #ffffff;
-    background: #4aaaa5;
-    font-family: 'Georgia', Times, 'Times New Roman', serif;
-    font-weight: bold;
-    font-size: 2em;
-    padding: 1em 1em 1em 1em;
-
-}
 
 #links {
-    float: right;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     padding: 3em 0em 0em 0em;
-
 }
+
 #footerText {
     height: 50px;
     width: 100%;
-    margin-left: auto; 
+    margin-left: auto;
     margin-right: auto;
     text-align: center;
     background: #666666;
     color: #ffffff;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; 
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     position: fixed;
-    bottom: 1em;   
-
+    bottom: 1em;
 }
-
 
 .clearfix::after {
     content: "";
@@ -91,19 +99,16 @@ a, a:visited, a:hover, a:active {
     font-size: 2em;
     color: #4aaaa5;
     padding: 0em 0em 1em 0em;
-   
-
+    border-bottom: 1px lightgray solid;
 }
 
 .article {
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; 
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #666666;
     padding: 1em 0em 0em 0em;
-    display:flex;
+    display: flex;
     flex-wrap: wrap;
-    line-height: 2em; 
-
- 
+    line-height: 2em;
 }
 
 form {
@@ -116,9 +121,8 @@ form {
     background-size: 320px 240px;
     color: #ffffff;
     margin: 1em 2em 1em 0em;
-    flex:none;
+    flex: none;
     position: relative;
-    
 }
 
 .shortcutName {
