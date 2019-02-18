@@ -1,0 +1,23 @@
+body {
+    background-image: url("../images/houndstooth-pattern.png");
+    text-align: center;
+}
+
+#header {
+    color: darkblue;
+    font-size: 2em;
+    text-align: center;
+    font-family: 'Georgia';
+    font-weight: bold;
+    margin-top: 1em;
+    padding: 1em 1em 1em 1em;
+    
+}
+
+.gif {
+    align-content: center;
+}
+
+.answer-option:hover {
+    background-color: #cccccc;
+}
