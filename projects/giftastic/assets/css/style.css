@@ -1,0 +1,22 @@
+#button-container {
+    background: lightblue;
+    margin: 1em;
+}
+.topic-button{
+    margin: 1em;
+    background: darkblue;
+    color: white;
+}
+
+#search-container {
+    text-align: center;
+}
+.image-container{
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.gif-div{
+    float: left;
+    padding: 1em;
+}
